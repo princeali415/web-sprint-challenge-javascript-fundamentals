@@ -27,13 +27,26 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+.forEach takes 2 paramters, index and item and .map takes one. .forEach needs an empty array to push too. .mpa creates a new rray
+
 2. Explain the difference between a callback and a higher order function.
+
+a callback is what gets passed into a higher order function.
 
 3. What is closure?
 
+closure defines where you can access diffrent variables depending on their scope
+
 4. Describe the four rules of the 'this' keyword.
+Window biding, explicit binding, implicit binidng, new binding.
+    Window Bindig is when this is in the global scope so therefore refers to everything on the console windows. Not something we like to do.
+    Implicit binding is when you invoke a function you have to use he this keyword inorder to access the key from the object its within. ONly applies to objects with methods.
+    New Binding is when you use the new key word or Object.create to create a new binding and use this to point to it.
+    Explicit Binding is when you use call, apply, or bind to pass in arguments and inoke a function you have to use this to refer to it.
 
 5. Why do we need super() in an extended class?
+
+    In order to give that class the extended propterties of the super class.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
