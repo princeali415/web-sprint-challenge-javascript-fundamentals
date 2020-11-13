@@ -167,8 +167,10 @@ CuboidMaker.prototype.volume = function(){
   Create a cuboid object that uses the new keyword to use our CuboidMaker constructor
   Add properties and values of length: 4, width: 5, and height: 5 to cuboid. */
 
-let cuboid = new CuboidMaker(4, 5, 5)
-
+  let cuboid = Object.create(CuboidMaker.prototype)
+cuboid.length = 4
+cuboid.height = 5
+cuboid.width = 5
 
 
 // 🐴🐴🐴 Test your volume and surfaceArea methods by uncommenting the logs below: 🐴🐴🐴
